@@ -26,6 +26,10 @@ pygame.display.set_caption("Scrolling_turtle")
 #score and lives
 score=0
 lives=3
+#music
+
+music=pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.play(-1)#For continue playing the music
 #background & turtle
 bg=pygame.transform.scale((pygame.image.load('backround.png')),(display_width,display_height))
 
